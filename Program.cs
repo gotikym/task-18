@@ -9,6 +9,7 @@ internal class Program
         int hpBoss = random.Next(minmalHpBoss, maxmumHpBoss);
         byte damageForOneHit = 2;
         int powerOfDamage = 0;
+        
         while (hpBoss > Math.Pow(damageForOneHit, powerOfDamage))
         {
             powerOfDamage++;
